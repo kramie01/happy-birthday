@@ -14,7 +14,7 @@ const topSearches = [
   "Avatar: The Last Airbender",
   "Demon Slayer: Kimetsu no Yaiba",
   "The Apothecary Diaries",
-  "Dandadan"
+  "Dandadan",
 ];
 
 const EntryGate = ({ onEnter }: EntryGateProps) => {
@@ -66,7 +66,9 @@ const EntryGate = ({ onEnter }: EntryGateProps) => {
 
           {/* Top searches */}
           <div className="mb-8 text-xs text-muted-foreground">
-            <span className="font-semibold text-foreground/70">Top search: </span>
+            <span className="font-semibold text-foreground/70">
+              Top search:{" "}
+            </span>
             {topSearches.map((s, i) => (
               <span key={s}>
                 {s}

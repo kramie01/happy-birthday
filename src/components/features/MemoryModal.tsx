@@ -60,7 +60,9 @@ const MemoryModal = ({ memory, onClose }: MemoryModalProps) => {
               <h3 className="mb-1 text-2xl font-extrabold text-foreground sm:text-3xl">
                 {memory.title}
               </h3>
-              <p className="mb-4 text-sm font-medium text-primary">{memory.caption}</p>
+              <p className="mb-4 text-sm font-medium text-primary">
+                {memory.caption}
+              </p>
               <p className="whitespace-pre-line text-sm leading-relaxed text-muted-foreground sm:text-base">
                 {memory.message}
               </p>

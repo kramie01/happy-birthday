@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { AnimatePresence } from "framer-motion";
-import EntryGate from "@/components/EntryGate";
-import Dashboard from "@/components/Dashboard";
+import EntryGate from "@/components/shared/EntryGate";
+import Dashboard from "@/components/features/Dashboard";
 import { useConfetti } from "@/hooks/use-confetti";
 
 const Index = () => {

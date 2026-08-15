@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import NavBar from "./NavBar";
+import NavBar from "@/components/layout/NavBar";
 import HeroSpotlight from "./HeroSpotlight";
 import MemoryGrid from "./MemoryGrid";
 import MemoryModal from "./MemoryModal";
@@ -31,21 +31,29 @@ const Dashboard = ({ isMusicPlaying, onToggleMusic }: DashboardProps) => {
       </div>
       <MessagesSection />
       <GallerySection />
-      <MemoryModal memory={selectedMemory} onClose={() => setSelectedMemory(null)} />
+      <MemoryModal
+        memory={selectedMemory}
+        onClose={() => setSelectedMemory(null)}
+      />
 
       <button
         type="button"
         onClick={onToggleMusic}
         className="fixed bottom-6 right-6 z-50 flex items-center gap-2 rounded-full border border-border bg-background/95 px-4 py-2 text-xs font-semibold text-foreground shadow-lg backdrop-blur-sm transition-colors hover:bg-secondary"
       >
-        {isMusicPlaying ? <Music2 className="h-4 w-4 text-primary" /> : <Music className="h-4 w-4" />}
+        {isMusicPlaying ? (
+          <Music2 className="h-4 w-4 text-primary" />
+        ) : (
+          <Music className="h-4 w-4" />
+        )}
         {isMusicPlaying ? "Music On" : "Music Off"}
       </button>
 
       {/* Footer */}
       <footer className="border-t border-border py-12 text-center">
         <p className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
-          Made with <Heart className="h-4 w-4 fill-primary text-primary" /> for Gwenny
+          Made with <Heart className="h-4 w-4 fill-primary text-primary" /> for
+          Gwenny
         </p>
       </footer>
     </motion.div>

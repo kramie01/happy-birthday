@@ -72,7 +72,9 @@ const GallerySection = () => {
               onClick={(e) => e.stopPropagation()}
             />
             <div className="absolute bottom-8 text-center">
-              <p className="text-sm text-muted-foreground">{memories[lightbox].caption}</p>
+              <p className="text-sm text-muted-foreground">
+                {memories[lightbox].caption}
+              </p>
             </div>
           </motion.div>
         )}

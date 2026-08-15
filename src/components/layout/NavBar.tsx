@@ -20,9 +20,13 @@ const NavBar = ({ onSelectMemory }: NavBarProps) => {
 
     return memories
       .filter((memory) =>
-        [memory.title, memory.caption, memory.message, memory.date, ...memory.genres].some((field) =>
-          field.toLowerCase().includes(normalizedQuery)
-        )
+        [
+          memory.title,
+          memory.caption,
+          memory.message,
+          memory.date,
+          ...memory.genres,
+        ].some((field) => field.toLowerCase().includes(normalizedQuery)),
       )
       .slice(0, 5);
   }, [normalizedQuery]);
@@ -36,7 +40,10 @@ const NavBar = ({ onSelectMemory }: NavBarProps) => {
     >
       <div className="mx-auto flex h-14 max-w-[1600px] items-center justify-between px-4 sm:px-6">
         {/* Logo */}
-        <a href="#" className="text-xl font-extrabold tracking-tight text-foreground">
+        <a
+          href="#"
+          className="text-xl font-extrabold tracking-tight text-foreground"
+        >
           h<span className="text-primary">!</span>birthday
         </a>
 
@@ -44,22 +51,22 @@ const NavBar = ({ onSelectMemory }: NavBarProps) => {
         <div className="hidden flex-1 items-center justify-center px-8 md:flex">
           <div className="relative w-full max-w-md">
             <div className="flex items-center gap-2 rounded-full border border-border bg-secondary/50 px-4 py-2">
-            <Search className="h-4 w-4 text-muted-foreground" />
-            <input
-              type="text"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              onFocus={() => setIsSearchFocused(true)}
-              onBlur={() => setTimeout(() => setIsSearchFocused(false), 150)}
-              placeholder="Search a greeting..."
-              className="flex-1 bg-transparent text-sm text-foreground placeholder:text-muted-foreground outline-none"
-            />
-            <button
-              type="button"
-              className="rounded bg-muted px-2 py-0.5 text-xs text-muted-foreground transition-colors hover:text-foreground"
-            >
-              <Filter className="h-3 w-3" />
-            </button>
+              <Search className="h-4 w-4 text-muted-foreground" />
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                onFocus={() => setIsSearchFocused(true)}
+                onBlur={() => setTimeout(() => setIsSearchFocused(false), 150)}
+                placeholder="Search a greeting..."
+                className="flex-1 bg-transparent text-sm text-foreground placeholder:text-muted-foreground outline-none"
+              />
+              <button
+                type="button"
+                className="rounded bg-muted px-2 py-0.5 text-xs text-muted-foreground transition-colors hover:text-foreground"
+              >
+                <Filter className="h-3 w-3" />
+              </button>
             </div>
 
             {isSearchFocused && normalizedQuery && (
@@ -82,9 +89,12 @@ const NavBar = ({ onSelectMemory }: NavBarProps) => {
                           className="h-12 w-12 rounded object-cover"
                         />
                         <div>
-                          <p className="text-sm font-semibold text-foreground">{memory.title}</p>
+                          <p className="text-sm font-semibold text-foreground">
+                            {memory.title}
+                          </p>
                           <p className="text-xs text-muted-foreground">
-                            {memory.date} • {formatGenres(memory.genres)} • {memory.caption}
+                            {memory.date} • {formatGenres(memory.genres)} •{" "}
+                            {memory.caption}
                           </p>
                         </div>
                       </button>
@@ -124,7 +134,11 @@ const NavBar = ({ onSelectMemory }: NavBarProps) => {
           className="text-foreground md:hidden"
           onClick={() => setMobileOpen(!mobileOpen)}
         >
-          {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+          {mobileOpen ? (
+            <X className="h-6 w-6" />
+          ) : (
+            <Menu className="h-6 w-6" />
+          )}
         </button>
       </div>
 

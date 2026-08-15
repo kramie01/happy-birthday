@@ -12,7 +12,9 @@ const MemoryGrid = ({ onSelectMemory }: MemoryGridProps) => {
   const [activeGenre, setActiveGenre] = useState("All");
   const trending = memories.slice(0, 10);
   const filtered =
-    activeGenre === "All" ? memories : memories.filter((m) => m.genres.includes(activeGenre));
+    activeGenre === "All"
+      ? memories
+      : memories.filter((m) => m.genres.includes(activeGenre));
 
   const [shuffleKey, setShuffleKey] = useState(0);
   const explored = useMemo(() => {
@@ -29,45 +31,8 @@ const MemoryGrid = ({ onSelectMemory }: MemoryGridProps) => {
     });
   };
 
-  const CardItem = ({ memory, index }: { memory: Memory; index: number }) => (
-    <motion.div
-      key={memory.id}
-      initial={{ opacity: 0, y: 30 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.4, delay: index * 0.08 }}
-      whileHover={{ scale: 1.05, y: -4 }}
-      onClick={() => onSelectMemory(memory)}
-      className="group relative flex-shrink-0 cursor-pointer overflow-hidden rounded-lg"
-      style={{ width: "160px", aspectRatio: "3/4" }}
-    >
-      <img
-        src={memory.imageUrl}
-        alt={memory.title}
-        loading="lazy"
-        width={320}
-        height={448}
-        className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
-      />
-      <div className="absolute inset-0 bg-gradient-to-t from-background via-background/30 to-transparent opacity-70" />
-      <div className="absolute inset-x-0 bottom-0 p-3">
-        <span className="text-2xl font-black leading-none text-primary/60">
-          {memory.id}
-        </span>
-        <p className="mt-1 truncate text-xs font-semibold text-foreground">
-          {memory.caption}
-        </p>
-      </div>
-      <div className="absolute inset-x-0 top-0 translate-y-[-100%] bg-primary/90 p-3 text-center transition-transform duration-300 group-hover:translate-y-0">
-        <p className="text-xs font-bold text-primary-foreground">
-          {memory.title}
-        </p>
-      </div>
-    </motion.div>
-  );
-
   return (
     <section className="mx-auto max-w-[1600px] px-4 py-10 sm:px-6">
-
       {/* Trending */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -101,7 +66,39 @@ const MemoryGrid = ({ onSelectMemory }: MemoryGridProps) => {
         style={{ scrollbarWidth: "none" }}
       >
         {trending.map((memory, index) => (
-          <CardItem key={memory.id} memory={memory} index={index} />
+          <motion.div
+            key={memory.id}
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4, delay: index * 0.08 }}
+            whileHover={{ scale: 1.05, y: -4 }}
+            onClick={() => onSelectMemory(memory)}
+            className="group relative flex-shrink-0 cursor-pointer overflow-hidden rounded-lg"
+            style={{ width: "160px", aspectRatio: "3/4" }}
+          >
+            <img
+              src={memory.imageUrl}
+              alt={memory.title}
+              loading="lazy"
+              width={320}
+              height={448}
+              className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-background via-background/30 to-transparent opacity-70" />
+            <div className="absolute inset-x-0 bottom-0 p-3">
+              <span className="text-2xl font-black leading-none text-primary/60">
+                {memory.id}
+              </span>
+              <p className="mt-1 truncate text-xs font-semibold text-foreground">
+                {memory.caption}
+              </p>
+            </div>
+            <div className="absolute inset-x-0 top-0 translate-y-[-100%] bg-primary/90 p-3 text-center transition-transform duration-300 group-hover:translate-y-0">
+              <p className="text-xs font-bold text-primary-foreground">
+                {memory.title}
+              </p>
+            </div>
+          </motion.div>
         ))}
       </div>
 
@@ -126,7 +123,10 @@ const MemoryGrid = ({ onSelectMemory }: MemoryGridProps) => {
       </motion.div>
 
       {/* Genre tabs */}
-      <div className="mb-5 flex gap-2 overflow-x-auto pb-1 scrollbar-hide" style={{ scrollbarWidth: "none" }}>
+      <div
+        className="mb-5 flex gap-2 overflow-x-auto pb-1 scrollbar-hide"
+        style={{ scrollbarWidth: "none" }}
+      >
         {genres.map((genre) => (
           <button
             key={genre}
@@ -162,11 +162,17 @@ const MemoryGrid = ({ onSelectMemory }: MemoryGridProps) => {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background via-background/30 to-transparent opacity-70" />
             <div className="absolute inset-x-0 bottom-0 p-3">
-              <p className="truncate text-xs font-semibold text-foreground">{memory.caption}</p>
-              <span className="text-[10px] text-muted-foreground">{formatGenres(memory.genres)}</span>
+              <p className="truncate text-xs font-semibold text-foreground">
+                {memory.caption}
+              </p>
+              <span className="text-[10px] text-muted-foreground">
+                {formatGenres(memory.genres)}
+              </span>
             </div>
             <div className="absolute inset-x-0 top-0 translate-y-[-100%] bg-primary/90 p-3 text-center transition-transform duration-300 group-hover:translate-y-0">
-              <p className="text-xs font-bold text-primary-foreground">{memory.title}</p>
+              <p className="text-xs font-bold text-primary-foreground">
+                {memory.title}
+              </p>
             </div>
           </motion.div>
         ))}

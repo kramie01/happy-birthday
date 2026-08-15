@@ -2,7 +2,13 @@ import { useState, useCallback, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Play, ChevronRight, ChevronLeft } from "lucide-react";
 import heroBirthday from "@/assets/hero-birthday.jpg";
-import { birthdayName, birthdayDate, featuredMessage, memories, type Memory } from "@/data/mockData";
+import {
+  birthdayName,
+  birthdayDate,
+  featuredMessage,
+  memories,
+  type Memory,
+} from "@/data/mockData";
 import { cn } from "@/lib/utils";
 
 const LONG_TITLE_LENGTH = 35;
@@ -47,13 +53,10 @@ const HeroSpotlight = ({ onSelectMemory }: HeroSpotlightProps) => {
   const [index, setIndex] = useState(0);
   const [direction, setDirection] = useState(1);
 
-  const go = useCallback(
-    (dir: 1 | -1) => {
-      setDirection(dir);
-      setIndex((prev) => (prev + dir + slides.length) % slides.length);
-    },
-    []
-  );
+  const go = useCallback((dir: 1 | -1) => {
+    setDirection(dir);
+    setIndex((prev) => (prev + dir + slides.length) % slides.length);
+  }, []);
 
   // Auto-advance every 8s
   useEffect(() => {
@@ -70,7 +73,9 @@ const HeroSpotlight = ({ onSelectMemory }: HeroSpotlightProps) => {
       return;
     }
 
-    document.getElementById("memory-grid")?.scrollIntoView({ behavior: "smooth" });
+    document
+      .getElementById("memory-grid")
+      ?.scrollIntoView({ behavior: "smooth" });
   };
 
   const handleDetail = () => {
@@ -84,7 +89,10 @@ const HeroSpotlight = ({ onSelectMemory }: HeroSpotlightProps) => {
   };
 
   return (
-    <section id="moments" className="relative h-[70vh] min-h-[480px] overflow-hidden">
+    <section
+      id="moments"
+      className="relative h-[70vh] min-h-[480px] overflow-hidden"
+    >
       {/* Background image with crossfade */}
       <AnimatePresence mode="wait">
         <motion.div
@@ -113,7 +121,7 @@ const HeroSpotlight = ({ onSelectMemory }: HeroSpotlightProps) => {
       <div
         className={cn(
           "relative z-10 flex h-full",
-          isLongTitle ? "items-end pb-24 pt-8 sm:pb-28" : "items-center"
+          isLongTitle ? "items-end pb-24 pt-8 sm:pb-28" : "items-center",
         )}
       >
         <AnimatePresence mode="wait" custom={direction}>
@@ -127,13 +135,13 @@ const HeroSpotlight = ({ onSelectMemory }: HeroSpotlightProps) => {
             transition={{ duration: 0.5 }}
             className={cn(
               "max-w-2xl px-6 sm:px-10 lg:px-16",
-              isLongTitle && "w-full overflow-hidden"
+              isLongTitle && "w-full overflow-hidden",
             )}
           >
             <span
               className={cn(
                 "inline-block text-xs font-bold uppercase tracking-[0.3em] text-primary",
-                isLongTitle ? "mb-2" : "mb-3"
+                isLongTitle ? "mb-2" : "mb-3",
               )}
             >
               {slide.badge}
@@ -144,14 +152,14 @@ const HeroSpotlight = ({ onSelectMemory }: HeroSpotlightProps) => {
                 "font-extrabold leading-tight text-foreground",
                 isLongTitle
                   ? "mb-3 text-2xl sm:text-3xl lg:text-4xl"
-                  : "mb-4 text-4xl sm:text-5xl lg:text-6xl"
+                  : "mb-4 text-4xl sm:text-5xl lg:text-6xl",
               )}
             >
               {slide.title}
               <span
                 className={cn(
                   "text-gradient-pink",
-                  isLongTitle && "block break-words line-clamp-3"
+                  isLongTitle && "block break-words line-clamp-3",
                 )}
               >
                 {slide.highlight}
@@ -161,7 +169,7 @@ const HeroSpotlight = ({ onSelectMemory }: HeroSpotlightProps) => {
             <div
               className={cn(
                 "flex flex-wrap items-center text-xs text-muted-foreground",
-                isLongTitle ? "mb-3 gap-2" : "mb-4 gap-3"
+                isLongTitle ? "mb-3 gap-2" : "mb-4 gap-3",
               )}
             >
               <span className="rounded bg-primary/20 px-2 py-0.5 font-semibold text-primary">
@@ -176,13 +184,18 @@ const HeroSpotlight = ({ onSelectMemory }: HeroSpotlightProps) => {
             <p
               className={cn(
                 "max-w-lg text-sm leading-relaxed text-muted-foreground sm:text-base",
-                isLongTitle ? "mb-4 line-clamp-3" : "mb-6 line-clamp-4"
+                isLongTitle ? "mb-4 line-clamp-3" : "mb-6 line-clamp-4",
               )}
             >
               {slide.description}
             </p>
 
-            <div className={cn("flex items-center gap-3", isLongTitle && "flex-wrap gap-2 sm:gap-3")}>
+            <div
+              className={cn(
+                "flex items-center gap-3",
+                isLongTitle && "flex-wrap gap-2 sm:gap-3",
+              )}
+            >
               <motion.button
                 type="button"
                 onClick={handleViewMemory}
@@ -192,7 +205,7 @@ const HeroSpotlight = ({ onSelectMemory }: HeroSpotlightProps) => {
                   "flex items-center gap-2 rounded-full bg-primary font-bold text-primary-foreground transition-shadow hover:glow-pink",
                   isLongTitle
                     ? "px-4 py-2.5 text-xs sm:px-6 sm:py-3 sm:text-sm"
-                    : "px-6 py-3 text-sm"
+                    : "px-6 py-3 text-sm",
                 )}
               >
                 <Play className="h-4 w-4 fill-current" />
@@ -207,7 +220,7 @@ const HeroSpotlight = ({ onSelectMemory }: HeroSpotlightProps) => {
                   "flex items-center gap-2 rounded-full border border-border bg-secondary/50 font-medium text-foreground backdrop-blur transition-colors hover:bg-secondary",
                   isLongTitle
                     ? "px-4 py-2.5 text-xs sm:px-6 sm:py-3 sm:text-sm"
-                    : "px-6 py-3 text-sm"
+                    : "px-6 py-3 text-sm",
                 )}
               >
                 Detail
@@ -234,7 +247,10 @@ const HeroSpotlight = ({ onSelectMemory }: HeroSpotlightProps) => {
           {slides.map((_, i) => (
             <button
               key={i}
-              onClick={() => { setDirection(i > index ? 1 : -1); setIndex(i); }}
+              onClick={() => {
+                setDirection(i > index ? 1 : -1);
+                setIndex(i);
+              }}
               className={`h-1.5 rounded-full transition-all duration-300 ${
                 i === index ? "w-6 bg-primary" : "w-1.5 bg-muted-foreground/40"
               }`}

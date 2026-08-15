@@ -1,14 +1,22 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
-import { memories, birthdayName, featuredMessage, type Memory } from "@/data/mockData";
+import {
+  memories,
+  birthdayName,
+  featuredMessage,
+  type Memory,
+} from "@/data/mockData";
 import MessageModal from "./MessageModal";
 
 const MessagesSection = () => {
   const [selectedMemory, setSelectedMemory] = useState<Memory | null>(null);
 
   return (
-    <section id="messages" className="mx-auto max-w-[1600px] px-4 py-16 sm:px-6">
+    <section
+      id="messages"
+      className="mx-auto max-w-[1600px] px-4 py-16 sm:px-6"
+    >
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -29,7 +37,9 @@ const MessagesSection = () => {
       >
         <div className="mb-4 flex items-center gap-2">
           <MessageCircle className="h-5 w-5 text-primary" />
-          <span className="text-sm font-bold text-primary">Featured Message</span>
+          <span className="text-sm font-bold text-primary">
+            Featured Message
+          </span>
         </div>
         <p className="whitespace-pre-line text-sm leading-relaxed text-muted-foreground sm:text-base">
           {featuredMessage}
@@ -55,14 +65,18 @@ const MessagesSection = () => {
                 className="h-10 w-10 rounded-full object-cover"
               />
               <div>
-                <h4 className="text-sm font-bold text-foreground">{memory.title}</h4>
+                <h4 className="text-sm font-bold text-foreground">
+                  {memory.title}
+                </h4>
               </div>
             </div>
-              <p className="line-clamp-5 whitespace-pre-line text-sm leading-relaxed text-muted-foreground">
+            <p className="line-clamp-5 whitespace-pre-line text-sm leading-relaxed text-muted-foreground">
               {memory.message}
             </p>
 
-            <p className="mt-5 text-xs text-muted-foreground">- {memory.caption}</p>
+            <p className="mt-5 text-xs text-muted-foreground">
+              - {memory.caption}
+            </p>
 
             {memory.message.length > 120 && (
               <p className="mt-3 text-xs font-semibold text-primary transition-colors group-hover:text-primary/80">
@@ -73,7 +87,10 @@ const MessagesSection = () => {
         ))}
       </div>
 
-      <MessageModal memory={selectedMemory} onClose={() => setSelectedMemory(null)} />
+      <MessageModal
+        memory={selectedMemory}
+        onClose={() => setSelectedMemory(null)}
+      />
     </section>
   );
 };

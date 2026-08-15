@@ -1,8 +1,14 @@
 import type { Config } from "tailwindcss";
+import tailwindcssAnimate from "tailwindcss-animate";
 
 export default {
   darkMode: ["class"],
-  content: ["./pages/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./app/**/*.{ts,tsx}", "./src/**/*.{ts,tsx}"],
+  content: [
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
+  ],
   prefix: "",
   theme: {
     container: {
@@ -87,7 +93,7 @@ export default {
           "0%, 100%": { boxShadow: "0 0 20px hsl(350 100% 86% / 0.3)" },
           "50%": { boxShadow: "0 0 40px hsl(350 100% 86% / 0.6)" },
         },
-        "float": {
+        float: {
           "0%, 100%": { transform: "translateY(0)" },
           "50%": { transform: "translateY(-10px)" },
         },
@@ -98,9 +104,9 @@ export default {
         "fade-in": "fade-in 0.6s ease-out forwards",
         "fade-in-scale": "fade-in-scale 0.4s ease-out forwards",
         "pulse-glow": "pulse-glow 2s ease-in-out infinite",
-        "float": "float 3s ease-in-out infinite",
+        float: "float 3s ease-in-out infinite",
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [tailwindcssAnimate],
 } satisfies Config;

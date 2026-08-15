@@ -35,7 +35,9 @@ const MessageModal = ({ memory, onClose }: MessageModalProps) => {
 
             <div className="mb-4 flex items-center gap-2">
               <MessageCircle className="h-5 w-5 text-primary" />
-              <span className="text-sm font-bold text-primary">Message from {memory.caption}</span>
+              <span className="text-sm font-bold text-primary">
+                Message from {memory.caption}
+              </span>
             </div>
 
             <h3 className="mb-4 pr-10 text-xl font-extrabold text-foreground sm:text-2xl">

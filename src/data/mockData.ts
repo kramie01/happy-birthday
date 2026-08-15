@@ -25,6 +25,9 @@ import memory24 from "@/assets/memory-24.jpg";
 import memory25 from "@/assets/memory-25.jpg";
 import memory26 from "@/assets/memory-26.jpg";
 import memory27 from "@/assets/memory-27.jpg";
+import memory28 from "@/assets/memory-28.jpg";
+import memory29 from "@/assets/memory-29.jpg";
+import memory30 from "@/assets/memory-30.jpg";
 
 export interface Memory {
   id: string;
@@ -70,8 +73,7 @@ export const memories: Memory[] = [
     imageUrl: memory02,
     date: "June 2026",
     caption: "Mama",
-    message:
-      `To my dearest daughter Gwen, Happy birthday. May your journey ahead be filled with love, success, and fulfillment. 
+    message: `To my dearest daughter Gwen, Happy birthday. May your journey ahead be filled with love, success, and fulfillment. 
       
       Mama is always proud to you and love you. God bless you always.`,
     genres: ["Family"],
@@ -82,8 +84,7 @@ export const memories: Memory[] = [
     imageUrl: memory03,
     date: "June 2020",
     caption: "Hansen",
-    message:
-      `More birthdays to come and do what makes you happy!`,
+    message: `More birthdays to come and do what makes you happy!`,
     genres: ["Family", "Davao"],
   },
   {
@@ -92,8 +93,7 @@ export const memories: Memory[] = [
     imageUrl: memory04,
     date: "September 2025",
     caption: "Mayang",
-    message:
-      `Happy birthday, teh! Ang tanda mo naaa. Officially "ate" na ng buong org HAHAHAHA. Enjoy your day bago sumakit likod mo mamaya.`,
+    message: `Happy birthday, teh! Ang tanda mo naaa. Officially "ate" na ng buong org HAHAHAHA. Enjoy your day bago sumakit likod mo mamaya.`,
     genres: ["Family"],
   },
   {
@@ -102,8 +102,7 @@ export const memories: Memory[] = [
     imageUrl: memory06,
     date: "July 2025",
     caption: "Roxi",
-    message:
-      `hapi birthday kakaivave, first of all— i miss u sooo much like tangina (lah) ik we have different lives now, different responsibilities, esp different paths to prioritize. But pls know that whatever distance may be doing to us, u will always be one of the day onez, kasama sa pag lipad sa snow (over nmn sa dramarama) 
+    message: `hapi birthday kakaivave, first of all— i miss u sooo much like tangina (lah) ik we have different lives now, different responsibilities, esp different paths to prioritize. But pls know that whatever distance may be doing to us, u will always be one of the day onez, kasama sa pag lipad sa snow (over nmn sa dramarama) 
       
       i hope na you're doing great right now lalo na with all the heavy loads you have on your plate, i wish that u will stay as pretty, funny and healthy as ever, kahit puro ka kape xd 😎 
       
@@ -116,8 +115,7 @@ export const memories: Memory[] = [
     imageUrl: memory07,
     date: "April 2025",
     caption: "Gem",
-    message:
-      `Hi, Gwen! Wish ko na makamit mo lahat ng mga dreams mo sa buhay, nandito lang kami nila Roxanne at Aj para suportahan ka. 
+    message: `Hi, Gwen! Wish ko na makamit mo lahat ng mga dreams mo sa buhay, nandito lang kami nila Roxanne at Aj para suportahan ka. 
       
       Stay healthy, ingat ka palagi, at wag sana umikli pasensya mo sa lagi nating nauudlot na gala HAHAHAHAHAHAH Thankk yyouuu!! I love youu!!`,
     genres: ["Friends"],
@@ -128,8 +126,7 @@ export const memories: Memory[] = [
     imageUrl: memory27,
     date: "December 2025 - Christmas Eve",
     caption: "Mayang",
-    message:
-      `Happy Birthday Gweny! i wish u all the best, happiness and love that u deserve. 4ever thankful for your existence coz u make your world much better place.
+    message: `Happy Birthday Gweny! i wish u all the best, happiness and love that u deserve. 4ever thankful for your existence coz u make your world much better place.
 
       no matter how long we are separated since we’re taking different paths, we both know that our bond is unbreakable & we will always come back to each other.
 
@@ -155,8 +152,7 @@ export const memories: Memory[] = [
     imageUrl: memory08,
     date: "Dec 2025 - RAY Christmas Party",
     caption: "Ate Makat",
-    message:
-      `Hello gwen!! Happy happy birthday to you! I am very proud to see your growth in the ministry–both sa PYM at RAY. Nakita ko buong journey mo simula umpisa maliban lang siguro sa legion haha! Napaka sipag mo super, you inspire me whenever i feel demotivated in serving. 
+    message: `Hello gwen!! Happy happy birthday to you! I am very proud to see your growth in the ministry–both sa PYM at RAY. Nakita ko buong journey mo simula umpisa maliban lang siguro sa legion haha! Napaka sipag mo super, you inspire me whenever i feel demotivated in serving. 
       
       You were the one who pushes me to be my best when i was a coor, kase i feel na may mga tao o kabataan pa rin na napapalapit ko sa panginoon at sana isa ka don hehe. Mula sa mahiyain na gwen until ngayon na isa ng leader, nakakakilig hahahaha Congrats!! 
       
@@ -169,8 +165,7 @@ export const memories: Memory[] = [
     imageUrl: memory09,
     date: "December 2026 - Mater Boni Christmas Party ❤️",
     caption: "Ate Jimai",
-    message:
-      `Hi gween, happy birthdaaay!! hehe i would like to take this opportunity lang to thank you sa lahat ng sacrifice mo esp for legion and sa lahat ng organizations mo sa parish🥹 i know hindi tayo masyado nag uusap ng deep deep hahahaha pero i just want you to know na grabe I’m one of the many people na amazed and admiring you sa dedication mo sa pag-seserve and napakabuti mong tao! ❤️ 
+    message: `Hi gween, happy birthdaaay!! hehe i would like to take this opportunity lang to thank you sa lahat ng sacrifice mo esp for legion and sa lahat ng organizations mo sa parish🥹 i know hindi tayo masyado nag uusap ng deep deep hahahaha pero i just want you to know na grabe I’m one of the many people na amazed and admiring you sa dedication mo sa pag-seserve and napakabuti mong tao! ❤️ 
       
       I’m grateful na isa ako sa naka witness and nakasama ka sa service, kasi sobrang nakakainspire ka! im super super proud of u teh!! and thank you so much gween kasi hindi mo pa din iniwan yung legion kahit alam kong wala kang choice HAHAHAHAHAA pero srsly thank youu so much gween and i never doubted you kasi alam ko kung gaano ka committed despite of the challenges na dumarating sayo 🥹❤️ 
       
@@ -183,8 +178,7 @@ export const memories: Memory[] = [
     imageUrl: memory10,
     date: "November 2024",
     caption: "Tita Clogene",
-    message:
-      `To Our Dearest Ate Gwen,
+    message: `To Our Dearest Ate Gwen,
 
       I wish you success, love and happiness in life. May god's grace surround you today and always, guiding your steps with love and light. Stay sweet and beautiful as you are.
 
@@ -197,8 +191,7 @@ export const memories: Memory[] = [
     imageUrl: memory11,
     date: "June 2024",
     caption: "Chimken wingz🪽🪽 (Clowee)",
-    message:
-      `Hi ate Gwen! I wish you all the best and may your day filled with lots of joy that you bring to my Brutha (Kuya) haluhhh nahihiya akuh😔🙏 wingz out🪽🪽🪽`,
+    message: `Hi ate Gwen! I wish you all the best and may your day filled with lots of joy that you bring to my Brutha (Kuya) haluhhh nahihiya akuh😔🙏 wingz out🪽🪽🪽`,
     genres: ["Family"],
   },
   {
@@ -207,8 +200,7 @@ export const memories: Memory[] = [
     imageUrl: memory12,
     date: "February 2020",
     caption: "Pareng bry",
-    message:
-      `Hi gwen, nangyan nickname pala natin sa messenger "phar" and "siopao" parang tanga lang HAHAHAHAAHA, pero ayun HAPPY HAPPY BIRTHDAY, GIRL!! maging masaya ka today, in-love na in-love ka pa naman, sweet ng bf mo may paganto pa samin, magaya nga HAHAAHAH. 
+    message: `Hi gwen, nangyan nickname pala natin sa messenger "phar" and "siopao" parang tanga lang HAHAHAHAAHA, pero ayun HAPPY HAPPY BIRTHDAY, GIRL!! maging masaya ka today, in-love na in-love ka pa naman, sweet ng bf mo may paganto pa samin, magaya nga HAHAAHAH. 
       
       kiddin aside, wishing you nothing but the best, gwenchana. stay in-love, takits soon, miss you!!`,
     genres: ["Friends"],
@@ -219,8 +211,7 @@ export const memories: Memory[] = [
     imageUrl: memory13,
     date: "February 2020",
     caption: "Spider-Man",
-    message:
-      `Hi, my name is Peter Parker, and you don't remember me, but I have something to tell you that's going to sound crazy. But it's the truth, and I know you're going to believe me, because you're very good at telling when I'm lying.
+    message: `Hi, my name is Peter Parker, and you don't remember me, but I have something to tell you that's going to sound crazy. But it's the truth, and I know you're going to believe me, because you're very good at telling when I'm lying.
 
       We used to know each other. We were together.
 
@@ -241,8 +232,7 @@ export const memories: Memory[] = [
     imageUrl: memory14,
     date: "December 2019",
     caption: "Anel",
-    message:
-      `Happy b-day, Gwen! Goodluckkk sa lifee, I hope you're happy! kita-kita ulit kapag umayon na ang oras sa atin😆 
+    message: `Happy b-day, Gwen! Goodluckkk sa lifee, I hope you're happy! kita-kita ulit kapag umayon na ang oras sa atin😆 
       
       Proud of u, gweni! Enjooy your daaay!`,
     genres: ["Friends"],
@@ -253,8 +243,7 @@ export const memories: Memory[] = [
     imageUrl: memory15,
     date: "August 2026",
     caption: "Kyle",
-    message:
-      `Salamat sa mga pinagsamahan natin, I will treasure it forever kahit na anong mangyari. Looking forward din ako sa mga dreams mo alam kong makakaraos ka din, malapit na. 
+    message: `Salamat sa mga pinagsamahan natin, I will treasure it forever kahit na anong mangyari. Looking forward din ako sa mga dreams mo alam kong makakaraos ka din, malapit na. 
       
       Wish you all the best! Good health, long life and genuine happiness. God bless you and your family! 
       
@@ -267,8 +256,7 @@ export const memories: Memory[] = [
     imageUrl: memory16,
     date: "Way Back 2024",
     caption: "alexx",
-    message:
-      `happyy birthdayy, gwenny!! thank you for ur existence, thank you for being a blessing to those people around u, u're a super big big big blessing sa EE and especially sa circle natin, thank you sa pagiging hands-on when it comes to announcing and reminding us ng mga bagay-bagay! 
+    message: `happyy birthdayy, gwenny!! thank you for ur existence, thank you for being a blessing to those people around u, u're a super big big big blessing sa EE and especially sa circle natin, thank you sa pagiging hands-on when it comes to announcing and reminding us ng mga bagay-bagay! 
       
       from 1st year to 3rd year hindi ka nakakalimot na mag remind sa amin ng mga need ipasa, oras ng pasok, and mga special announcements. though pagod ka, kulang sa tulog, ramdam pa rin namin 'yung presensiya mo. bigay mo na kay kwin 'tong 4th year HAHAHAHAHHAHAHA. 
       
@@ -283,18 +271,17 @@ export const memories: Memory[] = [
     imageUrl: memory17,
     date: "2018 & March 2019",
     caption: "Cha",
-    message:
-      `Happy Birthday, Gwenny! I love u and I'm always rooting for u!!🥳💗💗!`,
+    message: `Happy Birthday, Gwenny! I love u and I'm always rooting for u!!🥳💗💗!`,
     genres: ["Friends"],
   },
   {
     id: "18",
-    title: "Happy Birthday to our prettier and hardworking president ate gwennyy!!",
+    title:
+      "Happy Birthday to our prettier and hardworking president ate gwennyy!!",
     imageUrl: memory18,
     date: "January 2026",
     caption: "Jelayy",
-    message:
-      `Happy birthday ate gwen hope you enjoy your day!! Thank you for being a good and understandable presidium president!!💕💕 i hope maging successful kapo in life and ma-achives mo yung mga dreams mo in life.
+    message: `Happy birthday ate gwen hope you enjoy your day!! Thank you for being a good and understandable presidium president!!💕💕 i hope maging successful kapo in life and ma-achives mo yung mga dreams mo in life.
 
       I'm always praying for your health and success in life po, Hap is py is birth is day ate gwen!!🫀`,
     genres: ["Parish"],
@@ -305,8 +292,7 @@ export const memories: Memory[] = [
     imageUrl: memory19,
     date: "April 2026",
     caption: "Rhea",
-    message:
-      `May God continue to bless and guide you. Thank you for always guiding us. Enjoy your day! Lovelots! 🫶🏻💜`,
+    message: `May God continue to bless and guide you. Thank you for always guiding us. Enjoy your day! Lovelots! 🫶🏻💜`,
     genres: ["Parish"],
   },
   {
@@ -315,8 +301,7 @@ export const memories: Memory[] = [
     imageUrl: memory20,
     date: "January 2026",
     caption: "kitchie",
-    message:
-      `happy birthday poo ate gwen ! my wishes for you is good health, success in life and hope you to keep worshiping to god. you have been a good leader, member, friend, ate to us. specially to our presedium. even tho you have a lot of things to do, or things in mind that keeps bothering you, yet you stayed and continue to serve. 
+    message: `happy birthday poo ate gwen ! my wishes for you is good health, success in life and hope you to keep worshiping to god. you have been a good leader, member, friend, ate to us. specially to our presedium. even tho you have a lot of things to do, or things in mind that keeps bothering you, yet you stayed and continue to serve. 
       
       so thank you ate gwen, for the guidance and love. i hope you'll enjoy your day today surrounded by the people you love and loves you. stay strong alsooo sa inyo ni kuya kram hehe ^^
       
@@ -329,8 +314,7 @@ export const memories: Memory[] = [
     imageUrl: memory21,
     date: "February 2020",
     caption: "JEPP",
-    message:
-      `happy birthday!! i hope maging masaya ka ngayong birthday mo. onting onti nalang gagraduate kana! alam ko sa talino mong yan imposibleng wala kang latin honor hahaha. 
+    message: `happy birthday!! i hope maging masaya ka ngayong birthday mo. onting onti nalang gagraduate kana! alam ko sa talino mong yan imposibleng wala kang latin honor hahaha. 
       
       proud na proud aq sayo kahit ano man mangyari! i wish u all the best in life!`,
     genres: ["Friends"],
@@ -341,8 +325,7 @@ export const memories: Memory[] = [
     imageUrl: memory22,
     date: "March 2025",
     caption: "Geo",
-    message:
-      `Happy birthday pooo, enjoy your dayy poo and goodluck poo sa journey na tinatahak mo poo. And always be happy poo, no matter what happens poo hihi, lagi lang mag pray kapag may problema. Andyan lang si Lord sa tabi natin, hindi tayo pababayaan. 
+    message: `Happy birthday pooo, enjoy your dayy poo and goodluck poo sa journey na tinatahak mo poo. And always be happy poo, no matter what happens poo hihi, lagi lang mag pray kapag may problema. Andyan lang si Lord sa tabi natin, hindi tayo pababayaan. 
       
       Yun lang poo, happy birthday poo`,
     genres: ["Parish"],
@@ -353,8 +336,7 @@ export const memories: Memory[] = [
     imageUrl: memory23,
     date: "July 2026",
     caption: "hazelll marie",
-    message:
-      `hellooo to my ate (not in blood but ur still my ate). I want you to know that I'm super duper grateful because pinapafeel mo na may ate ako pag mag kasama tayo. Tapos hindi ka pa napapagod sa mga kung anek anek kue sa life... 
+    message: `hellooo to my ate (not in blood but ur still my ate). I want you to know that I'm super duper grateful because pinapafeel mo na may ate ako pag mag kasama tayo. Tapos hindi ka pa napapagod sa mga kung anek anek kue sa life... 
       
       Thankyou so much ate gwenie!!, love na love na love kita mwa mwa`,
     genres: ["Friends"],
@@ -365,8 +347,7 @@ export const memories: Memory[] = [
     imageUrl: memory24,
     date: "17 April 2025: 19:47 pm 🤪✨",
     caption: "Lanie",
-    message:
-      `Happy Bornday, sa aming triplets! Enjoy your day and thank you for being open to meeee, at nawa'y maging ganap ka ng enhinyero! 
+    message: `Happy Bornday, sa aming triplets! Enjoy your day and thank you for being open to meeee, at nawa'y maging ganap ka ng enhinyero! 
       
       May God bless you always, and remember 'pag natupad mo na mga pangarap mo, wag mo kalilimutan ang Diyos at ang Simbahan. 😽💕`,
     genres: ["Friends", "Parish"],
@@ -377,8 +358,7 @@ export const memories: Memory[] = [
     imageUrl: memory25,
     date: "April 2025",
     caption: "fatimaiaiaia",
-    message:
-      `happy birthday ate gween—sa aming main dancer and choreographer, we would like you to know na we appreciate everything that you do and youu deserve all the better and great things that God has given and will give to you. I'm super duper grateful na you're one of my ate's that I look up sa church, thx soo much for being such a great leader, thankyou sa pag guide sa aming lahaat. 
+    message: `happy birthday ate gween—sa aming main dancer and choreographer, we would like you to know na we appreciate everything that you do and youu deserve all the better and great things that God has given and will give to you. I'm super duper grateful na you're one of my ate's that I look up sa church, thx soo much for being such a great leader, thankyou sa pag guide sa aming lahaat. 
       
       May you always find a reason to stay and to continue serving God, and continue wearing that beautiful smile of yours >< wee love youu ate gwen, so much > 3`,
     genres: ["Parish"],
@@ -389,8 +369,7 @@ export const memories: Memory[] = [
     imageUrl: memory26,
     date: "Easter Egg Hunt 2026",
     caption: "Florence ganda",
-    message:
-      `GretengGz!!..para sa tumayong ate ko sa simbahan. thank you so much for taking care of us, kilala mo na po ate kung sino-sino kameng mga inaalagaan mong youth. ate gwen, the world deserves you and the whole world loves you, syempre included ang ating panginoon. i always include you and the other in my prayers always. di ako nagkulang ng panalangin sa Panginoon na maalagaan, gabayan, at sana biyayaan kayo/tayo sa ating buhay. malapit kana grumaduate, and proud na proud ako always. never kong makakalimutan ang kabaitan mo atee like leget talaga waes!! i think this message is not enough para sa mga nagawa mo sa RAY at Praesidiums. thank u din sa every year effort na turuan kameng sumayaw at ganun rin advance thank you so matchi kung papalarin kang maging bagong lider ng org naten!! 
+    message: `GretengGz!!..para sa tumayong ate ko sa simbahan. thank you so much for taking care of us, kilala mo na po ate kung sino-sino kameng mga inaalagaan mong youth. ate gwen, the world deserves you and the whole world loves you, syempre included ang ating panginoon. i always include you and the other in my prayers always. di ako nagkulang ng panalangin sa Panginoon na maalagaan, gabayan, at sana biyayaan kayo/tayo sa ating buhay. malapit kana grumaduate, and proud na proud ako always. never kong makakalimutan ang kabaitan mo atee like leget talaga waes!! i think this message is not enough para sa mga nagawa mo sa RAY at Praesidiums. thank u din sa every year effort na turuan kameng sumayaw at ganun rin advance thank you so matchi kung papalarin kang maging bagong lider ng org naten!! 
       
       ATE GWEN MAHAL NA MAHAL KITA/NAMIN!! and we might not communicate all the time at minsan lang magkita. may malaking lugar ka sa puso ko lagi't lagi. palaging mag-iingat at wag kalimutang manalangin. 
       
@@ -399,14 +378,46 @@ export const memories: Memory[] = [
   },
   {
     id: "28",
-    title: "Happy birthday ate gwen! ",
+    title: "Happy birthday ate gwen!",
     imageUrl: memory25,
     date: "April 2025",
     caption: "Alyza",
-    message:
-      `Happy birthday, Ate Gwen! 🥳💗 We only met last year, but I’m really glad that I got to know you. You’re such a kind and beautiful person, and I’m really thankful that I met you. I hope you have a wonderful birthday and that all your wishes come true. 
+    message: `Happy birthday, Ate Gwen! 🥳💗 We only met last year, but I’m really glad that I got to know you. You’re such a kind and beautiful person, and I’m really thankful that I met you. I hope you have a wonderful birthday and that all your wishes come true. 
       
       Enjoy your day, Ate Gwen! Happy birthday again! 🥰🎂`,
     genres: ["Parish"],
-  }
+  },
+  {
+    id: "29",
+    title: "happy borndey, Gwennie!",
+    imageUrl: memory28,
+    date: "June 2025",
+    caption: "R2R",
+    message: `nawa'y tumangkad ka pa at mas maging masamang tao! enjoy your day going bulilit!!`,
+    genres: ["Friends"],
+  },
+  {
+    id: "30",
+    title: "happy birthdayy, Gwen!",
+    imageUrl: memory29,
+    date: "June 2025",
+    caption: "tine",
+    message: `wishing you a day filled with love, laughter, and countless beautiful moments! 🎉💝`,
+    genres: ["Friends"],
+  },
+  {
+    id: "31",
+    title: "happy birthday, gwen!",
+    imageUrl: memory30,
+    date: "July 2025",
+    caption: "AJ",
+    message: `Hi Gwen! Happy birthday! Wishing you all the best in life, and I hope na sana lahat ng dreams and goals mo matupad. I’m really grateful na naging friends tayo, and I hope na tumagal pa nang tumagal yung friendship natin. More chika, bonding, gala, food trips, and unforgettable memories together soon!
+
+      On your special day, I’ll also pray that God continues to guide you in every decision you make, bless you with good health, peace, genuine happiness, and the strength to face every challenge that comes your way. May He lead you closer to the dreams you’re praying for and surround you with people who truly love and appreciate you.
+
+      I hope you always trust in God’s timing, even when things don’t go according to plan. Remember that He has a purpose for everything, and He will always be there to guide you through every season of your life.
+
+      Enjoy your day, Gwen! You deserve all the happiness and blessings coming your way. Here’s to more birthdays, more adventures, more prayers answered, and more memories together! Happy birthday ulit! `,
+    genres: ["Friends"],
+  },
 ];
