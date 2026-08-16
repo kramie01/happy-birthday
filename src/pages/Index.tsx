@@ -11,7 +11,7 @@ const Index = () => {
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
-    const audio = new Audio("/background-music.mp3");
+    const audio = new Audio(`${import.meta.env.BASE_URL}background-music.mp3`);
     audio.loop = true;
     audio.volume = 0.35;
     audioRef.current = audio;
