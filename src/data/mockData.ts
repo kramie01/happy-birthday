@@ -45,7 +45,7 @@ export interface Memory {
 
 export const formatGenres = (genres: string[]) => genres.join(" · ");
 
-export const genres = ["All", "Family", "Davao", "Parish", "Friends"];
+export const genres = ["All", "Babi", "Family", "Davao", "Parish", "Friends"];
 
 export const birthdayName = "Gwenivere";
 export const birthdayDate = "August 17, 2004";
@@ -83,7 +83,7 @@ export const memories: Memory[] = [
       happy birthday ulit, my lovelovey baby gwennyyy. thank you ulit, babi, sa 3 years and counting. same time and date next year? 
 
       I LOVE YOU, BABI, BIG TIME`,
-    genres: ["Friends"],
+    genres: ["Babi"],
   },
   {
     id: "02",
