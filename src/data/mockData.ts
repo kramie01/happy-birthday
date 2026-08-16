@@ -33,6 +33,8 @@ import memory32 from "@/assets/memory-32.jpg";
 import memory33 from "@/assets/memory-33.jpg";
 import memory34 from "@/assets/memory-34.jpg";
 import memory35 from "@/assets/memory-35.jpg";
+import memory36 from "@/assets/memory-36.jpg";
+import memory37 from "@/assets/memory-37.jpg";
 
 
 
@@ -501,5 +503,27 @@ export const memories: Memory[] = [
 
     Thank you for being kind and showing compassion when someone is feeling down even if it seems a small act of kindness to you but it means a lot to a person. If I were to describe you, I would also say that you embodied a candle—someone who warms a person of purely having you being with them when they are feeling cold. Thank you for your beautiful warm soul. God blessed you always, ate gwen! Ilyyy🫶🏻 HAPPPY HAPPPY BIRTHDAY 🎂`,
     genres: ["Parish"],
+  },
+  {
+    id: "37",
+    title: "Happy birthday gorgeous",
+    imageUrl: memory36,
+    date: "",
+    caption: "John albert placido",
+    message: `Happy Birthday, Gwen! 🎉
+
+    I am so grateful to have you as my friend. Thank you for all the laughter, the unforgettable memories, and for always being by my side through every up and down. Life is so much brighter with you in it!
+
+    I hope your special day brings you as much joy, warmth, and happiness as you bring to everyone around you. Here’s to celebrating you today and creating even more amazing memories together this year. Love you lots! 🥳💖`,
+    genres: ["Friends"],
+  },
+  {
+    id: "38",
+    title: "Happy Birthday Presi",
+    imageUrl: memory37,
+    date: "June 2026",
+    caption: "Imji",
+    message: `Happy birthday gwen, salamat sa mga tulong mo sa amin ng mga tropa natin. Stay who you are lang and sana maging mabuti kang president saming mga kabataan. HAHAHAHA Happy birthday ulit enjoy your day.`,
+    genres: ["Friends"],
   }
 ];
