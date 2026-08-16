@@ -119,6 +119,10 @@ const NavBar = ({ onSelectMemory }: NavBarProps) => {
             <a
               key={link}
               href={`#${link.toLowerCase()}`}
+              onClick={(e) => {
+                e.preventDefault();
+                document.getElementById(link.toLowerCase())?.scrollIntoView({ behavior: 'smooth' });
+              }}
               className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
             >
               {link}
@@ -154,7 +158,11 @@ const NavBar = ({ onSelectMemory }: NavBarProps) => {
               key={link}
               href={`#${link.toLowerCase()}`}
               className="block py-3 text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
-              onClick={() => setMobileOpen(false)}
+              onClick={(e) => {
+                e.preventDefault();
+                setMobileOpen(false);
+                document.getElementById(link.toLowerCase())?.scrollIntoView({ behavior: 'smooth' });
+              }}
             >
               {link}
             </a>
