@@ -234,7 +234,7 @@ export const memories: Memory[] = [
     id: "13",
     title: "Habadu, Gwen Stacy",
     imageUrl: memory13,
-    date: "February 2020",
+    date: "July 2025",
     caption: "Spider-Man",
     message: `Hi, my name is Peter Parker, and you don't remember me, but I have something to tell you that's going to sound crazy. But it's the truth, and I know you're going to believe me, because you're very good at telling when I'm lying.
 
