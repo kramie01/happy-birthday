@@ -28,6 +28,10 @@ import memory27 from "@/assets/memory-27.jpg";
 import memory28 from "@/assets/memory-28.jpg";
 import memory29 from "@/assets/memory-29.jpg";
 import memory30 from "@/assets/memory-30.jpg";
+import memory31 from "@/assets/memory-31.jpg";
+import memory32 from "@/assets/memory-32.jpg";
+import memory33 from "@/assets/memory-33.jpg";
+
 
 export interface Memory {
   id: string;
@@ -61,10 +65,24 @@ export const memories: Memory[] = [
     id: "01",
     title: "HAPPY BIRTHDAY, BABI!",
     imageUrl: memory01,
-    date: "July 2023",
+    date: "August 2023",
     caption: "Babi",
     message:
-      "Remember that warm summer night when we gathered on the rooftop with sparklers in hand? The city lights below us couldn't compete with the sparks we created. We danced, we laughed until our stomachs hurt, and we made a pact to never let the magic fade. That night wasn't just a celebration — it was a promise that no matter where life takes us, we'd always find our way back to moments like these.",
+      `happy birthday, babi! itong picture natin is exactly 3 years ago na since the first time na icelebrate natin yung birthday mo together at buti naiuwi pa kita kay tita nang buong-buo kahit madaling araw na HAHAHAH.
+
+      3 years na rin tayo together and wala akong pinagsisihan in pursuing this relationship, pursuing you and being with you. all i know nung una kitang makita sa molave habang nagpapractice kayo ng contemporary dance (di pa ko kasali HAHAHA) is that i am sure na you are the one i want to spend my whole life with.
+
+      sa 3 years na yun, thank you for making me feel what I wanted to feel. thank you sa efforts and sacrifices na ginawa mo sa relationship natin. you make me the happiest version of myself, thank you for everything, babi ko!
+
+      all throughout those 3 years i’ve seen how you grow, a lot. i’ve seen your lowest point in life moments and even yung mga small wins mo. witness ako sa lahat ng nangyayari sa buhay mo and that is why sobrang bilib ako sayo. for the past 3 years, babi, sobrang proud ako sayo. sa lahat ng na aachieve mo, sa lahat ng sinurvive mong araw at sa lahat ng sacrifices mo. i know hindi naging madali for you pero i never doubted you ever since na hindi mo kaya, kasi alam kong kayang kaya mo. look how far youve come, halos leader at president ka na sa lahat organizations mo. bachelor of science in organization ka e no, kahit sa simbahan HAHAHA eme.
+
+      basically, i just wanted to say na ang galing-galing mo babi at nakakatuwa lang din na nag ggrow ka, habang kasama mo ako.
+
+      i wish you all the best babi, natupad na yung isa kasi nandito na ko e😎. continue to grow babi, im just always right here for you para suportahan ka maging through ups and downs, left and right ng buhay mo. 
+
+      happy birthday ulit, my lovelovey baby gwennyyy. thank you ulit, babi, sa 3 years and counting. same time and date next year? 
+
+      I LOVE YOU, BABI, BIG TIME`,
     genres: ["Friends"],
   },
   {
@@ -97,20 +115,20 @@ export const memories: Memory[] = [
     genres: ["Family"],
   },
   {
-    id: "06",
+    id: "05",
     title: "HAPPY BIRTHDAY GWENCHANA, OUR ENGINEER!! 🤍",
     imageUrl: memory06,
     date: "July 2025",
     caption: "Roxi",
     message: `hapi birthday kakaivave, first of all— i miss u sooo much like tangina (lah) ik we have different lives now, different responsibilities, esp different paths to prioritize. But pls know that whatever distance may be doing to us, u will always be one of the day onez, kasama sa pag lipad sa snow (over nmn sa dramarama) 
       
-      i hope na you're doing great right now lalo na with all the heavy loads you have on your plate, i wish that u will stay as pretty, funny and healthy as ever, kahit puro ka kape xd 😎 
+    i hope na you're doing great right now lalo na with all the heavy loads you have on your plate, i wish that u will stay as pretty, funny and healthy as ever, kahit puro ka kape xd 😎 
       
-      i love u te sana magkapera na tayong apat para matuloy na pag book natin ng airbnb and inuman na 😛😛😛😛 feel free to modify this message.... (ahyyy AI) 🫰🏻🫰🏻`,
+    i love u te sana magkapera na tayong apat para matuloy na pag book natin ng airbnb and inuman na 😛😛😛😛 feel free to modify this message.... (ahyyy AI) 🫰🏻🫰🏻`,
     genres: ["Friends"],
   },
   {
-    id: "07",
+    id: "06",
     title: "HAPPPIIEESTT BIRTHDAYYY GWENNNNN!!",
     imageUrl: memory07,
     date: "April 2025",
@@ -121,7 +139,7 @@ export const memories: Memory[] = [
     genres: ["Friends"],
   },
   {
-    id: "27",
+    id: "07",
     title: "HAPPY HAPPY BIRTHDAY GWENYY!!",
     imageUrl: memory27,
     date: "December 2025 - Christmas Eve",
@@ -134,46 +152,50 @@ export const memories: Memory[] = [
     genres: ["Friends"],
   },
   {
-    id: "05",
-    title: "Happy birthday gwen",
-    imageUrl: memory05,
-    date: "",
-    caption: "che2x",
-    message: `Happy Birthday, dear niece! 🎂🎉💖 Wishing you a wonderful birthday filled with happiness, love, and beautiful memories. Always remember that you are loved and cherished by our family. May you continue to grow into a kind, strong, and wonderful young lady. 🌸
-
-    May God bless you with good health, wisdom, and success in everything you do. Keep smiling, keep dreaming, and always believe in yourself. Enjoy your special day! 🥳🎂🎁
-
-    Happy Birthday, my beautiful pamangkin! We love you! 💕`,
-    genres: ["Family", "Davao"],
-  },
-  {
     id: "08",
-    title: "Happy birthday gwen!! 🎂🥰🫶🏼",
-    imageUrl: memory08,
-    date: "Dec 2025 - RAY Christmas Party",
-    caption: "Ate Makat",
-    message: `Hello gwen!! Happy happy birthday to you! I am very proud to see your growth in the ministry–both sa PYM at RAY. Nakita ko buong journey mo simula umpisa maliban lang siguro sa legion haha! Napaka sipag mo super, you inspire me whenever i feel demotivated in serving. 
-      
-      You were the one who pushes me to be my best when i was a coor, kase i feel na may mga tao o kabataan pa rin na napapalapit ko sa panginoon at sana isa ka don hehe. Mula sa mahiyain na gwen until ngayon na isa ng leader, nakakakilig hahahaha Congrats!! 
-      
-      I hope you found your strength to keep going too. Keep serving lang okii. I will pray for you always. More inuman to come 🥂`,
-    genres: ["Friends", "Parish"],
+    title: "happy birthday, gwen!",
+    imageUrl: memory30,
+    date: "July 2025",
+    caption: "AJ",
+    message: `Hi Gwen! Happy birthday! Wishing you all the best in life, and I hope na sana lahat ng dreams and goals mo matupad. I’m really grateful na naging friends tayo, and I hope na tumagal pa nang tumagal yung friendship natin. More chika, bonding, gala, food trips, and unforgettable memories together soon!
+
+    On your special day, I’ll also pray that God continues to guide you in every decision you make, bless you with good health, peace, genuine happiness, and the strength to face every challenge that comes your way. May He lead you closer to the dreams you’re praying for and surround you with people who truly love and appreciate you.
+
+    I hope you always trust in God’s timing, even when things don’t go according to plan. Remember that He has a purpose for everything, and He will always be there to guide you through every season of your life.
+
+    Enjoy your day, Gwen! You deserve all the happiness and blessings coming your way. Here’s to more birthdays, more adventures, more prayers answered, and more memories together! Happy birthday ulit! `,
+    genres: ["Friends"],
   },
   {
     id: "09",
-    title: "Happy birthday so much Gween!!!",
-    imageUrl: memory09,
-    date: "December 2026 - Mater Boni Christmas Party ❤️",
-    caption: "Ate Jimai",
-    message: `Hi gween, happy birthdaaay!! hehe i would like to take this opportunity lang to thank you sa lahat ng sacrifice mo esp for legion and sa lahat ng organizations mo sa parish🥹 i know hindi tayo masyado nag uusap ng deep deep hahahaha pero i just want you to know na grabe I’m one of the many people na amazed and admiring you sa dedication mo sa pag-seserve and napakabuti mong tao! ❤️ 
-      
-      I’m grateful na isa ako sa naka witness and nakasama ka sa service, kasi sobrang nakakainspire ka! im super super proud of u teh!! and thank you so much gween kasi hindi mo pa din iniwan yung legion kahit alam kong wala kang choice HAHAHAHAHAA pero srsly thank youu so much gween and i never doubted you kasi alam ko kung gaano ka committed despite of the challenges na dumarating sayo 🥹❤️ 
-      
-      i wish you all the best gween and alam ko maabot mo yung mga dreams mo kasi super deserve mo and alam na yan ni Lord!! ❤️ Happiest birthdaay ulit!! luv u! 🥳❤️`,
-    genres: ["Friends", "Parish"],
+    title: "HAPPY BIRTHDAY, BILAAAAT!!",
+    imageUrl: memory31,
+    date: "Pandemic (and dugyot) days sya",
+    caption: "SHAYGANDA",
+    message: `Hi, Gwennyyy! Happy happy birthday, beh!
+
+    Thank you sa pakikinig sa lahat ng kaharutan ko kahit hanggang pakikinig lang talaga at hindi naman jinojowa HAHAHAHAHA. Pero kidding aside, sobrang thankful ako na nakilala kita. Ang gaan mong kausap, ang sarap mong biruin, at higit sa lahat, ang sarap mong maging kaibigan.
+
+    Sobrang napa-proud ako sayo, beh. Seeing how far you’ve come and how good you are in your field makes me genuinely happy for you. Sobrang galing mo, and I hope you know how admirable you are, not just because of what you’ve achieved, but also because of how mature, and wise you are. At your age ngayon (kahit noon pa HAHAHA), ang mature mo na mag-isip, and I really admire that about you.
+
+    And another thing… napakaswerte mo talaga sa boyfriend mo, beh kinginaka talaga, pinagpala ka! Pero syempre, swerte rin siya sayo. I hope you both continue to grow together. Kaya naman, gawin nyo na akong ninaaaaang!! EME HAHAHAHAHAHA. 
+
+    Enjoy your day, birthday girl! You deserve all the love and happiness today and always. Happy birthday ulit, sissyyy! Love youuu! 🥹💗`,
+    genres: ["Friends"],
   },
   {
     id: "10",
+    title: "Pibertdeeeey, gwenniiii!!",
+    imageUrl: memory14,
+    date: "December 2019",
+    caption: "Anel",
+    message: `Happy b-day, Gwen! Goodluckkk sa lifee, I hope you're happy! kita-kita ulit kapag umayon na ang oras sa atin😆 
+      
+      Proud of u, gweni! Enjooy your daaay!`,
+    genres: ["Friends"],
+  },
+  {
+    id: "27",
     title: "Happiest Birthday Ate Gweeen 🤍🎂💐",
     imageUrl: memory10,
     date: "November 2024",
@@ -228,14 +250,16 @@ export const memories: Memory[] = [
   },
   {
     id: "14",
-    title: "Pibertdeeeey, gwenniiii!!",
-    imageUrl: memory14,
-    date: "December 2019",
-    caption: "Anel",
-    message: `Happy b-day, Gwen! Goodluckkk sa lifee, I hope you're happy! kita-kita ulit kapag umayon na ang oras sa atin😆 
+    title: "Happy birthday so much Gween!!!",
+    imageUrl: memory09,
+    date: "December 2026 - Mater Boni Christmas Party ❤️",
+    caption: "Ate Jimai",
+    message: `Hi gween, happy birthdaaay!! hehe i would like to take this opportunity lang to thank you sa lahat ng sacrifice mo esp for legion and sa lahat ng organizations mo sa parish🥹 i know hindi tayo masyado nag uusap ng deep deep hahahaha pero i just want you to know na grabe I’m one of the many people na amazed and admiring you sa dedication mo sa pag-seserve and napakabuti mong tao! ❤️ 
       
-      Proud of u, gweni! Enjooy your daaay!`,
-    genres: ["Friends"],
+      I’m grateful na isa ako sa naka witness and nakasama ka sa service, kasi sobrang nakakainspire ka! im super super proud of u teh!! and thank you so much gween kasi hindi mo pa din iniwan yung legion kahit alam kong wala kang choice HAHAHAHAHAA pero srsly thank youu so much gween and i never doubted you kasi alam ko kung gaano ka committed despite of the challenges na dumarating sayo 🥹❤️ 
+      
+      i wish you all the best gween and alam ko maabot mo yung mga dreams mo kasi super deserve mo and alam na yan ni Lord!! ❤️ Happiest birthdaay ulit!! luv u! 🥳❤️`,
+    genres: ["Friends", "Parish"],
   },
   {
     id: "15",
@@ -407,17 +431,50 @@ export const memories: Memory[] = [
   },
   {
     id: "31",
-    title: "happy birthday, gwen!",
-    imageUrl: memory30,
-    date: "July 2025",
-    caption: "AJ",
-    message: `Hi Gwen! Happy birthday! Wishing you all the best in life, and I hope na sana lahat ng dreams and goals mo matupad. I’m really grateful na naging friends tayo, and I hope na tumagal pa nang tumagal yung friendship natin. More chika, bonding, gala, food trips, and unforgettable memories together soon!
+    title: "Happy birthday gwen",
+    imageUrl: memory05,
+    date: "",
+    caption: "che2x",
+    message: `Happy Birthday, dear niece! 🎂🎉💖 Wishing you a wonderful birthday filled with happiness, love, and beautiful memories. Always remember that you are loved and cherished by our family. May you continue to grow into a kind, strong, and wonderful young lady. 🌸
 
-      On your special day, I’ll also pray that God continues to guide you in every decision you make, bless you with good health, peace, genuine happiness, and the strength to face every challenge that comes your way. May He lead you closer to the dreams you’re praying for and surround you with people who truly love and appreciate you.
+    May God bless you with good health, wisdom, and success in everything you do. Keep smiling, keep dreaming, and always believe in yourself. Enjoy your special day! 🥳🎂🎁
 
-      I hope you always trust in God’s timing, even when things don’t go according to plan. Remember that He has a purpose for everything, and He will always be there to guide you through every season of your life.
-
-      Enjoy your day, Gwen! You deserve all the happiness and blessings coming your way. Here’s to more birthdays, more adventures, more prayers answered, and more memories together! Happy birthday ulit! `,
-    genres: ["Friends"],
+    Happy Birthday, my beautiful pamangkin! We love you! 💕`,
+    genres: ["Family", "Davao"],
   },
+  {
+    id: "32",
+    title: "Happy birthday gwen!! 🎂🥰🫶🏼",
+    imageUrl: memory08,
+    date: "Dec 2025 - RAY Christmas Party",
+    caption: "Ate Makat",
+    message: `Hello gwen!! Happy happy birthday to you! I am very proud to see your growth in the ministry–both sa PYM at RAY. Nakita ko buong journey mo simula umpisa maliban lang siguro sa legion haha! Napaka sipag mo super, you inspire me whenever i feel demotivated in serving. 
+      
+    You were the one who pushes me to be my best when i was a coor, kase i feel na may mga tao o kabataan pa rin na napapalapit ko sa panginoon at sana isa ka don hehe. Mula sa mahiyain na gwen until ngayon na isa ng leader, nakakakilig hahahaha Congrats!! 
+      
+    I hope you found your strength to keep going too. Keep serving lang okii. I will pray for you always. More inuman to come 🥂`,
+    genres: ["Friends", "Parish"],
+  },
+  {
+    id: "33",
+    title: "Happy na Birthday pa, Ms. President!",
+    imageUrl: memory32,
+    date: "May 2026",
+    caption: "Fray Nestor",
+    message: `Happy2 birthday Ms. Gwen, our president and animator of the mater boni consili Praesidium of legion of Mary,  May God in His immense Goodness and Love shower you with His Blessings and may God grant all your prayers and petitions. 
+    
+    Continue to serve our Mother Church and pagbutihin ang pag- aaral at maging masunuring anak sa mga magulang at maging mabait at mapagkalinga sa iyung mga Kapatid. (Edewow) Hahahahaha , Godbless you in all your endeavors in life and Happy birthday once again.`,
+    genres: ["Parish"],
+  },
+  {
+    id: "34",
+    title: "Feliz cumpleaños! Katood Gwen!",
+    imageUrl: memory33,
+    date: "June 2025 - NYD Caceres 2025",
+    caption: "Katood Kuya Blue",
+    message: `Happy Birthday Gwen!! Thank you for being you! 😁 Hindi man naging madali sayo ang buhay, still your choosing to wake up for your dreams and aspirations. 
+    
+    Hindi madaling makahanap ng isang genuine soul katulad mo kaya ipagpatuloy mo yung kabutihan na ginagawa mo para sayo, sa pamilya mo, sa buhay pag-ibig yieee haha, sa simbahan, sa RAY, and lastly kay Lord. Wishing you all the best in the world! Take care and God bless! 🤍`,
+    genres: ["Parish"],
+  }
 ];
