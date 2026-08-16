@@ -31,6 +31,9 @@ import memory30 from "@/assets/memory-30.jpg";
 import memory31 from "@/assets/memory-31.jpg";
 import memory32 from "@/assets/memory-32.jpg";
 import memory33 from "@/assets/memory-33.jpg";
+import memory34 from "@/assets/memory-34.jpg";
+import memory35 from "@/assets/memory-35.jpg";
+
 
 
 export interface Memory {
@@ -68,21 +71,21 @@ export const memories: Memory[] = [
     date: "August 2023",
     caption: "Babi",
     message:
-      `happy birthday, babi! itong picture natin is exactly 3 years ago na since the first time na icelebrate natin yung birthday mo together at buti naiuwi pa kita kay tita nang buong-buo kahit madaling araw na HAHAHAH.
+    `happy birthday, babi! itong picture natin is exactly 3 years ago na since the first time na icelebrate natin yung birthday mo together at buti naiuwi pa kita kay tita nang buong-buo kahit madaling araw na HAHAHAH.
 
-      3 years na rin tayo together and wala akong pinagsisihan in pursuing this relationship, pursuing you and being with you. all i know nung una kitang makita sa molave habang nagpapractice kayo ng contemporary dance (di pa ko kasali HAHAHA) is that i am sure na you are the one i want to spend my whole life with.
+    3 years na rin tayo together and wala akong pinagsisihan in pursuing this relationship, pursuing you and being with you. all i know nung una kitang makita sa molave habang nagpapractice kayo ng contemporary dance (di pa ko kasali HAHAHA) is that i am sure na you are the one i want to spend my whole life with.
 
-      sa 3 years na yun, thank you for making me feel what I wanted to feel. thank you sa efforts and sacrifices na ginawa mo sa relationship natin. you make me the happiest version of myself, thank you for everything, babi ko!
+    sa 3 years na yun, thank you for making me feel what I wanted to feel. thank you sa efforts and sacrifices na ginawa mo sa relationship natin. you make me the happiest version of myself, thank you for everything, babi ko!
 
-      all throughout those 3 years i’ve seen how you grow, a lot. i’ve seen your lowest point in life moments and even yung mga small wins mo. witness ako sa lahat ng nangyayari sa buhay mo and that is why sobrang bilib ako sayo. for the past 3 years, babi, sobrang proud ako sayo. sa lahat ng na aachieve mo, sa lahat ng sinurvive mong araw at sa lahat ng sacrifices mo. i know hindi naging madali for you pero i never doubted you ever since na hindi mo kaya, kasi alam kong kayang kaya mo. look how far youve come, halos leader at president ka na sa lahat organizations mo. bachelor of science in organization ka e no, kahit sa simbahan HAHAHA eme.
+    all throughout those 3 years i’ve seen how you grow, a lot. i’ve seen your lowest point in life moments and even yung mga small wins mo. witness ako sa lahat ng nangyayari sa buhay mo and that is why sobrang bilib ako sayo. for the past 3 years, babi, sobrang proud ako sayo. sa lahat ng na aachieve mo, sa lahat ng sinurvive mong araw at sa lahat ng sacrifices mo. i know hindi naging madali for you pero i never doubted you ever since na hindi mo kaya, kasi alam kong kayang kaya mo. look how far youve come, halos leader at president ka na sa lahat organizations mo. bachelor of science in organization ka e no, kahit sa simbahan HAHAHA eme.
 
-      basically, i just wanted to say na ang galing-galing mo babi at nakakatuwa lang din na nag ggrow ka, habang kasama mo ako.
+    basically, i just wanted to say na ang galing-galing mo babi at nakakatuwa lang din na nag ggrow ka, habang kasama mo ako. i cant wait na dumating yung time na engineer ka na, and i know you will be a great engineer.
 
-      i wish you all the best babi, natupad na yung isa kasi nandito na ko e😎. continue to grow babi, im just always right here for you para suportahan ka maging through ups and downs, left and right ng buhay mo. 
+    i wish you all the best babi, natupad na yung isa kasi nandito na ko e😎. continue to grow babi, im just always right here for you para suportahan ka maging through ups and downs, left and right ng buhay mo. 
 
-      happy birthday ulit, my lovelovey baby gwennyyy. thank you ulit, babi, sa 3 years and counting. same time and date next year? 
+    happy birthday ulit, my lovelovey baby gwennyyy. thank you ulit, babi, sa 3 years and counting. same time and date next year? 
 
-      I LOVE YOU, BABI, BIG TIME`,
+    I LOVE YOU, MY ENGR BABI, BIG TIME`,
     genres: ["Babi"],
   },
   {
@@ -93,7 +96,7 @@ export const memories: Memory[] = [
     caption: "Mama",
     message: `To my dearest daughter Gwen, Happy birthday. May your journey ahead be filled with love, success, and fulfillment. 
       
-      Mama is always proud to you and love you. God bless you always.`,
+    Mama is always proud to you and love you. God bless you always.`,
     genres: ["Family"],
   },
   {
@@ -135,7 +138,7 @@ export const memories: Memory[] = [
     caption: "Gem",
     message: `Hi, Gwen! Wish ko na makamit mo lahat ng mga dreams mo sa buhay, nandito lang kami nila Roxanne at Aj para suportahan ka. 
       
-      Stay healthy, ingat ka palagi, at wag sana umikli pasensya mo sa lagi nating nauudlot na gala HAHAHAHAHAHAH Thankk yyouuu!! I love youu!!`,
+    Stay healthy, ingat ka palagi, at wag sana umikli pasensya mo sa lagi nating nauudlot na gala HAHAHAHAHAHAH Thankk yyouuu!! I love youu!!`,
     genres: ["Friends"],
   },
   {
@@ -146,9 +149,9 @@ export const memories: Memory[] = [
     caption: "Mayang",
     message: `Happy Birthday Gweny! i wish u all the best, happiness and love that u deserve. 4ever thankful for your existence coz u make your world much better place.
 
-      no matter how long we are separated since we’re taking different paths, we both know that our bond is unbreakable & we will always come back to each other.
+    no matter how long we are separated since we’re taking different paths, we both know that our bond is unbreakable & we will always come back to each other.
 
-      Yk that i'll always be here for you & whatever happens, you'll always have me. i hope we both win in life and everything that we wish for will soon come true. iloveyousomuch!`,
+    Yk that i'll always be here for you & whatever happens, you'll always have me. i hope we both win in life and everything that we wish for will soon come true. iloveyousomuch!`,
     genres: ["Friends"],
   },
   {
@@ -224,7 +227,7 @@ export const memories: Memory[] = [
     caption: "Pareng bry",
     message: `Hi gwen, nangyan nickname pala natin sa messenger "phar" and "siopao" parang tanga lang HAHAHAHAAHA, pero ayun HAPPY HAPPY BIRTHDAY, GIRL!! maging masaya ka today, in-love na in-love ka pa naman, sweet ng bf mo may paganto pa samin, magaya nga HAHAAHAH. 
       
-      kiddin aside, wishing you nothing but the best, gwenchana. stay in-love, takits soon, miss you!!`,
+    kiddin aside, wishing you nothing but the best, gwenchana. stay in-love, takits soon, miss you!!`,
     genres: ["Friends"],
   },
   {
@@ -235,17 +238,17 @@ export const memories: Memory[] = [
     caption: "Spider-Man",
     message: `Hi, my name is Peter Parker, and you don't remember me, but I have something to tell you that's going to sound crazy. But it's the truth, and I know you're going to believe me, because you're very good at telling when I'm lying.
 
-      We used to know each other. We were together.
+    We used to know each other. We were together.
 
-      But something bad was going to happen to the world. And the only way to stop it was to make everyone forget me, including you.
+    But something bad was going to happen to the world. And the only way to stop it was to make everyone forget me, including you.
 
-      Because I'm not just Peter Parker. I'm Spider-Man.
+    Because I'm not just Peter Parker. I'm Spider-Man.
 
-      And sometimes, Spider-Man has to do the hard thing. Even if it breaks Peter Parker's heart.
+    And sometimes, Spider-Man has to do the hard thing. Even if it breaks Peter Parker's heart.
 
-      Maybe I'll never read this to you. Maybe I'm just writing this for me. Maybe that's my responsibility, to live alone with the truth.
+    Maybe I'll never read this to you. Maybe I'm just writing this for me. Maybe that's my responsibility, to live alone with the truth.
 
-      But the truth is I love you. And I hope that deep down, something inside you remembers you love me too.`,
+    But the truth is I love you. And I hope that deep down, something inside you remembers you love me too.`,
     genres: ["Friends"],
   },
   {
@@ -256,9 +259,9 @@ export const memories: Memory[] = [
     caption: "Ate Jimai",
     message: `Hi gween, happy birthdaaay!! hehe i would like to take this opportunity lang to thank you sa lahat ng sacrifice mo esp for legion and sa lahat ng organizations mo sa parish🥹 i know hindi tayo masyado nag uusap ng deep deep hahahaha pero i just want you to know na grabe I’m one of the many people na amazed and admiring you sa dedication mo sa pag-seserve and napakabuti mong tao! ❤️ 
       
-      I’m grateful na isa ako sa naka witness and nakasama ka sa service, kasi sobrang nakakainspire ka! im super super proud of u teh!! and thank you so much gween kasi hindi mo pa din iniwan yung legion kahit alam kong wala kang choice HAHAHAHAHAA pero srsly thank youu so much gween and i never doubted you kasi alam ko kung gaano ka committed despite of the challenges na dumarating sayo 🥹❤️ 
+    I’m grateful na isa ako sa naka witness and nakasama ka sa service, kasi sobrang nakakainspire ka! im super super proud of u teh!! and thank you so much gween kasi hindi mo pa din iniwan yung legion kahit alam kong wala kang choice HAHAHAHAHAA pero srsly thank youu so much gween and i never doubted you kasi alam ko kung gaano ka committed despite of the challenges na dumarating sayo 🥹❤️ 
       
-      i wish you all the best gween and alam ko maabot mo yung mga dreams mo kasi super deserve mo and alam na yan ni Lord!! ❤️ Happiest birthdaay ulit!! luv u! 🥳❤️`,
+    i wish you all the best gween and alam ko maabot mo yung mga dreams mo kasi super deserve mo and alam na yan ni Lord!! ❤️ Happiest birthdaay ulit!! luv u! 🥳❤️`,
     genres: ["Friends", "Parish"],
   },
   {
@@ -269,9 +272,9 @@ export const memories: Memory[] = [
     caption: "Kyle",
     message: `Salamat sa mga pinagsamahan natin, I will treasure it forever kahit na anong mangyari. Looking forward din ako sa mga dreams mo alam kong makakaraos ka din, malapit na. 
       
-      Wish you all the best! Good health, long life and genuine happiness. God bless you and your family! 
+    Wish you all the best! Good health, long life and genuine happiness. God bless you and your family! 
       
-      I love you, again happy happy birthday enjoyyy! 🎂🎉`,
+    I love you, again happy happy birthday enjoyyy! 🎂🎉`,
     genres: ["Friends"],
   },
   {
@@ -282,11 +285,11 @@ export const memories: Memory[] = [
     caption: "alexx",
     message: `happyy birthdayy, gwenny!! thank you for ur existence, thank you for being a blessing to those people around u, u're a super big big big blessing sa EE and especially sa circle natin, thank you sa pagiging hands-on when it comes to announcing and reminding us ng mga bagay-bagay! 
       
-      from 1st year to 3rd year hindi ka nakakalimot na mag remind sa amin ng mga need ipasa, oras ng pasok, and mga special announcements. though pagod ka, kulang sa tulog, ramdam pa rin namin 'yung presensiya mo. bigay mo na kay kwin 'tong 4th year HAHAHAHAHHAHAHA. 
+    from 1st year to 3rd year hindi ka nakakalimot na mag remind sa amin ng mga need ipasa, oras ng pasok, and mga special announcements. though pagod ka, kulang sa tulog, ramdam pa rin namin 'yung presensiya mo. bigay mo na kay kwin 'tong 4th year HAHAHAHAHHAHAHA. 
       
-      i wish you more more blessings and birthdays to come as grow physically, memtally, spiritually, and siyempre sa inyo ni kram WHAHAHAHA stay strong sa inyo, noy! gala na tayo ulit!!! 
+    i wish you more more blessings and birthdays to come as grow physically, memtally, spiritually, and siyempre sa inyo ni kram WHAHAHAHA stay strong sa inyo, noy! gala na tayo ulit!!! 
       
-      again, happy happy happy birthdayy, gwennchana!!`,
+    again, happy happy happy birthdayy, gwennchana!!`,
     genres: ["Friends"],
   },
   {
@@ -307,7 +310,7 @@ export const memories: Memory[] = [
     caption: "Jelayy",
     message: `Happy birthday ate gwen hope you enjoy your day!! Thank you for being a good and understandable presidium president!!💕💕 i hope maging successful kapo in life and ma-achives mo yung mga dreams mo in life.
 
-      I'm always praying for your health and success in life po, Hap is py is birth is day ate gwen!!🫀`,
+    I'm always praying for your health and success in life po, Hap is py is birth is day ate gwen!!🫀`,
     genres: ["Parish"],
   },
   {
@@ -327,9 +330,9 @@ export const memories: Memory[] = [
     caption: "kitchie",
     message: `happy birthday poo ate gwen ! my wishes for you is good health, success in life and hope you to keep worshiping to god. you have been a good leader, member, friend, ate to us. specially to our presedium. even tho you have a lot of things to do, or things in mind that keeps bothering you, yet you stayed and continue to serve. 
       
-      so thank you ate gwen, for the guidance and love. i hope you'll enjoy your day today surrounded by the people you love and loves you. stay strong alsooo sa inyo ni kuya kram hehe ^^
+    so thank you ate gwen, for the guidance and love. i hope you'll enjoy your day today surrounded by the people you love and loves you. stay strong alsooo sa inyo ni kuya kram hehe ^^
       
-      again, happiesttt birthday ate gwennn, we loaf u !! ><`,
+    again, happiesttt birthday ate gwennn, we loaf u !! ><`,
     genres: ["Parish"],
   },
   {
@@ -340,7 +343,7 @@ export const memories: Memory[] = [
     caption: "JEPP",
     message: `happy birthday!! i hope maging masaya ka ngayong birthday mo. onting onti nalang gagraduate kana! alam ko sa talino mong yan imposibleng wala kang latin honor hahaha. 
       
-      proud na proud aq sayo kahit ano man mangyari! i wish u all the best in life!`,
+    proud na proud aq sayo kahit ano man mangyari! i wish u all the best in life!`,
     genres: ["Friends"],
   },
   {
@@ -351,7 +354,7 @@ export const memories: Memory[] = [
     caption: "Geo",
     message: `Happy birthday pooo, enjoy your dayy poo and goodluck poo sa journey na tinatahak mo poo. And always be happy poo, no matter what happens poo hihi, lagi lang mag pray kapag may problema. Andyan lang si Lord sa tabi natin, hindi tayo pababayaan. 
       
-      Yun lang poo, happy birthday poo`,
+    Yun lang poo, happy birthday poo`,
     genres: ["Parish"],
   },
   {
@@ -362,7 +365,7 @@ export const memories: Memory[] = [
     caption: "hazelll marie",
     message: `hellooo to my ate (not in blood but ur still my ate). I want you to know that I'm super duper grateful because pinapafeel mo na may ate ako pag mag kasama tayo. Tapos hindi ka pa napapagod sa mga kung anek anek kue sa life... 
       
-      Thankyou so much ate gwenie!!, love na love na love kita mwa mwa`,
+    Thankyou so much ate gwenie!!, love na love na love kita mwa mwa`,
     genres: ["Friends"],
   },
   {
@@ -373,7 +376,7 @@ export const memories: Memory[] = [
     caption: "Lanie",
     message: `Happy Bornday, sa aming triplets! Enjoy your day and thank you for being open to meeee, at nawa'y maging ganap ka ng enhinyero! 
       
-      May God bless you always, and remember 'pag natupad mo na mga pangarap mo, wag mo kalilimutan ang Diyos at ang Simbahan. 😽💕`,
+    May God bless you always, and remember 'pag natupad mo na mga pangarap mo, wag mo kalilimutan ang Diyos at ang Simbahan. 😽💕`,
     genres: ["Friends", "Parish"],
   },
   {
@@ -384,7 +387,7 @@ export const memories: Memory[] = [
     caption: "fatimaiaiaia",
     message: `happy birthday ate gween—sa aming main dancer and choreographer, we would like you to know na we appreciate everything that you do and youu deserve all the better and great things that God has given and will give to you. I'm super duper grateful na you're one of my ate's that I look up sa church, thx soo much for being such a great leader, thankyou sa pag guide sa aming lahaat. 
       
-      May you always find a reason to stay and to continue serving God, and continue wearing that beautiful smile of yours >< wee love youu ate gwen, so much > 3`,
+    May you always find a reason to stay and to continue serving God, and continue wearing that beautiful smile of yours >< wee love youu ate gwen, so much > 3`,
     genres: ["Parish"],
   },
   {
@@ -395,7 +398,7 @@ export const memories: Memory[] = [
     caption: "Florence ganda",
     message: `GretengGz!!..para sa tumayong ate ko sa simbahan. thank you so much for taking care of us, kilala mo na po ate kung sino-sino kameng mga inaalagaan mong youth. ate gwen, the world deserves you and the whole world loves you, syempre included ang ating panginoon. i always include you and the other in my prayers always. di ako nagkulang ng panalangin sa Panginoon na maalagaan, gabayan, at sana biyayaan kayo/tayo sa ating buhay. malapit kana grumaduate, and proud na proud ako always. never kong makakalimutan ang kabaitan mo atee like leget talaga waes!! i think this message is not enough para sa mga nagawa mo sa RAY at Praesidiums. thank u din sa every year effort na turuan kameng sumayaw at ganun rin advance thank you so matchi kung papalarin kang maging bagong lider ng org naten!! 
       
-      ATE GWEN MAHAL NA MAHAL KITA/NAMIN!! and we might not communicate all the time at minsan lang magkita. may malaking lugar ka sa puso ko lagi't lagi. palaging mag-iingat at wag kalimutang manalangin. 
+    ATE GWEN MAHAL NA MAHAL KITA/NAMIN!! and we might not communicate all the time at minsan lang magkita. may malaking lugar ka sa puso ko lagi't lagi. palaging mag-iingat at wag kalimutang manalangin. 
       
       we're here for you always and we loveeeeeeeeeeeee uuu so matshii ateee!! GOD BLESS ✧･ﾟ:*(͡ꈍ͜ʖ̫͡ꈍ)*:･ﾟ✧`,
     genres: ["Parish"],
@@ -475,6 +478,28 @@ export const memories: Memory[] = [
     message: `Happy Birthday Gwen!! Thank you for being you! 😁 Hindi man naging madali sayo ang buhay, still your choosing to wake up for your dreams and aspirations. 
     
     Hindi madaling makahanap ng isang genuine soul katulad mo kaya ipagpatuloy mo yung kabutihan na ginagawa mo para sayo, sa pamilya mo, sa buhay pag-ibig yieee haha, sa simbahan, sa RAY, and lastly kay Lord. Wishing you all the best in the world! Take care and God bless! 🤍`,
+    genres: ["Parish"],
+  },
+  {
+    id: "35",
+    title: "HAPPY BIRTHDAY ATE GWENNNNNNNNNNN!!",
+    imageUrl: memory34,
+    date: "January 2024",
+    caption: "princess ann",
+    message: `happy birthday ate gwen, thank you po sa pag help sa'kin kapag need ko ng help, thank you din sa pag sabay sa mga trip ko, thank you for being part of ky ray life`,
+    genres: ["Parish"],
+  },
+  {
+    id: "36",
+    title: "HAPPY BIRTHDAY, ATE GWENN! 🥳",
+    imageUrl: memory35,
+    date: "July 2025",
+    caption: "Claire",
+    message: `I've known ate gwen as a kind woman. Approachable at alam mong makakasundo mo once na mas makilala mo pa siya. May outreach program noon sa Laguna kung saan ilang araw din tayo roon kaya may bawat rooms din tayo. Ang swerte namin ni lailanie kasi yung room namin malawak atsaka malaki. Ang kaso malakas yung bugso ng ulan noon at yung kwarto ninyo ay pababa lang sa tabi ng swimming pool kaya binabaha kayo. Kaya naman inaya namin kayo na doon magstay sa kwarto namin. Sobrang saya sa feeling kasi andami natin at parang girls out ang peg hahahaha mukang pang vip din kasi sa ganda yung kwarto. 
+
+    But, despite of the excitement, this memorable outreach day still remained to me as I've experienced and remembered your little not so little act of kindness. Siguro dahil it's more than just a ‘girls out’ but rather a lady who shows compassion towards woman. Unfortunately, I'm worried and nanghihinayang na rin kasi hindi ako makakapagtampisaw sa swimming pool kasi nasaktuhan pa na period day ko tapos pinayagan tayo mag swimming nung nagpaalam tayo huhu but viola your kindness allowed me na makapagswimming hahaha! Pero hindi lang sa outreach program nalilimitahan yung kindness mo. Before, hindi talaga ako sanay makipagsocialize kapag nasa new environment ako. I can be as worst awkward person standing in front of everyone or talking with anyone but it was not a hindrance for me to feel secure talking to you or kapag nagkakasama lang tayo sa mga event—it felt natural like a friend. Kinamusta mo rin ako at niyakap noon hindi ako nakaattend sa RAY dahil sa na-admit ako sa hospital. 
+
+    Thank you for being kind and showing compassion when someone is feeling down even if it seems a small act of kindness to you but it means a lot to a person. If I were to describe you, I would also say that you embodied a candle—someone who warms a person of purely having you being with them when they are feeling cold. Thank you for your beautiful warm soul. God blessed you always, ate gwen! Ilyyy🫶🏻 HAPPPY HAPPPY BIRTHDAY 🎂`,
     genres: ["Parish"],
   }
 ];
